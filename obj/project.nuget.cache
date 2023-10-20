@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "0CdVmRCcE1dxBDLi6NVvYx6ByuhhHsphvBikuP0f4ecbJSTc8kng63VhGQ+6ntrJFlcGAK2QicgEjgJ3ALXJ8A==",
+  "success": false,
+  "projectFilePath": "G:\\acducation\\git\\Git\\example\\WebApplication2\\WebApplication2.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Failed to download package 'Microsoft.Extensions.ApiDescription.Server.6.0.5' from 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg'.\r\nUnable to read data from the transport connection: An established connection was aborted by the software in your host machine.\r\n  An established connection was aborted by the software in your host machine"
+    },
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Failed to download package 'Swashbuckle.AspNetCore.SwaggerUI.6.5.0' from 'https://api.nuget.org/v3-flatcontainer/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg'.\r\nAn error occurred while sending the request.\r\n  The remote name could not be resolved: 'api.nuget.org'"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.ApiDescription.Server' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.apidescription.server/index.json'.",
+      "libraryId": "Microsoft.Extensions.ApiDescription.Server"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore.SwaggerUI' from remote source 'https://api.nuget.org/v3-flatcontainer/swashbuckle.aspnetcore.swaggerui/index.json'.",
+      "libraryId": "Swashbuckle.AspNetCore.SwaggerUI"
+    }
+  ]
+}
